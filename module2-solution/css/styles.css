@@ -43,8 +43,8 @@ p {
 
 .menu1, .menu2, .menu3{
 	border: 1px solid black;
-	margin:0;
-	padding:0;
+	margin:-1px;
+	padding:-1px;
 	float:right;
 	width: 100px;
 	text-align: center;

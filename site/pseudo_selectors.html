@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport", content="width=device-width, initial-scale=1">
+
+	<title>Test Pseudo selectors</title>
+</head>
+<style>
+
+body li
+{
+	list-style: none;
+
+}
+
+a:link,a:visited 
+{background-color: red;
+ text-align: center;
+ border: blue; 
+ display:block;
+ width:200px;
+}
+
+a:hover{
+	background-color: green;
+	color: red;
+}
+
+body li:nth-child(3)
+{
+	font-size:30px;
+}
+
+body li:nth-child(odd)
+{
+	background-color: grey;
+}
+
+</style>
+
+<body>
+<ul>
+<li><a href="/" title="Home">Home Page</a></li>
+<li><a href="index.html" title="Link2">Link2</a></li>
+<li><a href="https://github.com/hrodda/courseera-test/blob/gh-pages/site/doc-structure-before.html" title="Link3">Link3</a></li>
+
+</body>
+</html>
