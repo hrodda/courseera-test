@@ -1,9 +1,0 @@
-.row{
-	margin-bottom: 20px;
-}
-
-.row > div{
-	background-color: grey;
-	border: red;
-
-}
